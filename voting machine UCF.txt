@@ -1,0 +1,8 @@
+
+#Created by Constraints Editor (xc3s50-pq208-5) - 2021/06/20
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 0.1 ns HIGH 50%;
+VOLTAGE=1;
+
+#NET "en" TNM_NET = en;
+#TIMESPEC TS_en = PERIOD "en" 10 ns HIGH 50%;
